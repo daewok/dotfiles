@@ -1,5 +1,10 @@
-if [ -e /home/etimmons/mers-workspace/ros/setup.zsh ]
+# Set ROS_ZSH_SETUP_FILE_LOCATION if different from the default.
+
+if [[ -z "$ROS_ZSH_SETUP_FILE_LOCATION" ]]; then
+   ROS_ZSH_SETUP_FILE_LOCATION="$HOME/mers-workspace/ros/setup.zsh"
+fi
+
+if [ -e $ROS_ZSH_SETUP_FILE_LOCATION ]
 then
-	. /home/etimmons/mers-workspace/ros/setup.zsh
-#	export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/home/etimmons/mers/mers_ros
+	. $ROS_ZSH_SETUP_FILE_LOCATION
 fi
