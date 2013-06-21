@@ -7,6 +7,8 @@ ZSH=$HOME/.dotfiles
 # time that oh-my-zsh is loaded.
 ZSH_THEME="gentoo"
 
+export EDITOR="/usr/bin/emacs -nw"
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
