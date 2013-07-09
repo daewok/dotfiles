@@ -408,7 +408,7 @@
  '(org-agenda-files (quote ("~/Dropbox/org/normal-life.org")))
  '(org-directory "~/Dropbox/org")
  '(org-mobile-inbox-for-pull "~/Dropbox/org/from-mobile.org")
- '(safe-local-variable-values (quote ((Syntax . ANSI-Common-Lisp) (Package . BOUNDING-CONFLICTS) (Package . PHCA-SEQUENCER) (Package . PHCA) (Package . MTK-UTILS) (Package . BFIG) (Package . filter) (Package . stochastic) (Package . bfl) (Package . CL-USER) (Package . matlisp) (Package . make) (Syntax . ansi-common-lisp) (Package . ISAT) (Package . CPLEX-BRIDGE) (Package . MLLP) (Package . ONR) (Package . cl-user) (Package . data-capture) (Package . mtk-utils) (Package . MPL) (Package . CCA-model) (Package . CCA-Model) (Package . QSP) (Package . LP-MODEL) (Package . cca-model) (Package . OPSAT) (Package . LP-SOLVER) (Package . COMMON-LISP-USER) (Package . Sleuth) (Base . 10) (Package . SLEUTH) (TeX-master . t))))
+ '(safe-local-variable-values (quote ((Package . OPT-MODEL) (Syntax . ANSI-Common-Lisp) (Package . BOUNDING-CONFLICTS) (Package . PHCA-SEQUENCER) (Package . PHCA) (Package . MTK-UTILS) (Package . BFIG) (Package . filter) (Package . stochastic) (Package . bfl) (Package . CL-USER) (Package . matlisp) (Package . make) (Syntax . ansi-common-lisp) (Package . ISAT) (Package . CPLEX-BRIDGE) (Package . MLLP) (Package . ONR) (Package . cl-user) (Package . data-capture) (Package . mtk-utils) (Package . MPL) (Package . CCA-model) (Package . CCA-Model) (Package . QSP) (Package . LP-MODEL) (Package . cca-model) (Package . OPSAT) (Package . LP-SOLVER) (Package . COMMON-LISP-USER) (Package . Sleuth) (Base . 10) (Package . SLEUTH) (TeX-master . t))))
  '(tab-width 4))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
