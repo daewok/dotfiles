@@ -8,3 +8,5 @@ if [ -e $ROS_ZSH_SETUP_FILE_LOCATION ]
 then
 	. $ROS_ZSH_SETUP_FILE_LOCATION
 fi
+
+export ROS_LISP_IMPL=allegro
