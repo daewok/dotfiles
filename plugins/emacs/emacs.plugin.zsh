@@ -19,6 +19,9 @@ if "$ZSH/tools/require_tool.sh" emacs 23 2>/dev/null ; then
     alias emacs="$EMACS_PLUGIN_LAUNCHER --no-wait"
     alias e=emacs
 
+	# to force emacs to open in the terminal.
+	alias enw='emacsclient --alternate-editor "" -nw'
+
     # same than M-x eval but from outside Emacs.
     alias eeval="$EMACS_PLUGIN_LAUNCHER --eval"
     # create a new X frame
